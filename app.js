@@ -22,6 +22,10 @@ function translateTxt(){
     }).catch(errorHandler);
 }
 
+function refreshEve(){
+    location.reload();
+}
+
 
 
 
@@ -29,7 +33,7 @@ function translateTxt(){
 
 
 translateBtn.addEventListener("click", translateTxt)
-
+refreshBtn.addEventListener("click", refreshEve)
 
 
 
